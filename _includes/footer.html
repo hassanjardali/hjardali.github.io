@@ -1,0 +1,52 @@
+{% include base_path %}
+
+<div class="footer-inner">
+  <div class="footer-left">
+    {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+    <div class="page__footer-follow">
+      <ul class="social-icons">
+        {% if site.data.ui-text[site.locale].follow_label %}
+          <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+        {% endif %}
+        {% if site.author.github %}
+          <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        {% endif %}
+        {% if site.author.bitbucket %}
+          <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        {% endif %}
+        {% if site.atom_feed.hide != true %}
+        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+        {% endif %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <div class="page__footer-copyright">
+      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.<br />
+      Site last updated {{ "now" | date: '%Y-%m-%d' }}, <a href="/sitemap/" style="text-transform: uppercase;">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a>
+    </div>
+  </div>
+
+  <div class="site-signature">
+    <a class="site-signature__mark" href="{{ base_path }}/" aria-label="Hassan Jardali — home" title="حسن الجردلي · Hassan Jardali">
+      <span class="site-signature__name" lang="ar" dir="rtl">حسن الجردلي</span>
+      <svg class="site-signature__swash" viewBox="0 0 260 26" fill="none" aria-hidden="true">
+        <path d="M6 17 C 54 4, 104 25, 150 13 C 190 3, 224 20, 254 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var sig = document.querySelector('.site-signature');
+    if (!sig) return;
+    if (!('IntersectionObserver' in window)) { sig.classList.add('is-inked'); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { sig.classList.add('is-inked'); io.disconnect(); }
+      });
+    }, { threshold: 0.6 });
+    io.observe(sig);
+  })();
+</script>

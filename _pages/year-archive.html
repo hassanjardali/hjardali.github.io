@@ -1,0 +1,24 @@
+---
+layout: archive
+permalink: /writing/
+title: "Writing"
+author_profile: true
+redirect_from:
+  - /blog/
+  - /year-archive/
+  - /wordpress/blog-posts/
+---
+
+{% include base_path %}
+
+<p class="page__lead">Notes on robotics, research, and the occasional detour. Newest posts first.</p>
+
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}

@@ -1,0 +1,327 @@
+# Photography galleries. Edit the caption for each photo below.
+# To add a photo: drop it in images/photography/<region>/ and add a line here.
+regions:
+- name: America
+  id: america
+  photos:
+  - file: america/america-01.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: america/america-02.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: america/america-03.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: america/america-04.jpg
+    caption: ''
+    width: 1200
+    height: 1600
+  - file: america/america-05.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-06.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-07.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-08.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-09.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-10.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: america/america-11.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-12.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-13.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-14.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-15.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: america/america-16.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: america/america-17.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-18.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-19.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-20.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-21.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: america/america-22.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-23.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: america/america-24.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: america/america-25.jpg
+    caption: ''
+    width: 4512
+    height: 3008
+- name: Europe
+  id: europe
+  photos:
+  - file: europe/europe-01.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: europe/europe-02.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: europe/europe-03.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: europe/europe-04.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: europe/europe-05.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: europe/europe-06.jpg
+    caption: ''
+    width: 1600
+    height: 973
+  - file: europe/europe-07.jpg
+    caption: ''
+    width: 973
+    height: 1600
+  - file: europe/europe-08.jpg
+    caption: ''
+    width: 1600
+    height: 973
+  - file: europe/europe-09.jpg
+    caption: ''
+    width: 973
+    height: 1600
+  - file: europe/europe-10.jpg
+    caption: ''
+    width: 1600
+    height: 1068
+  - file: europe/europe-11.jpg
+    caption: ''
+    width: 1600
+    height: 1068
+  - file: europe/europe-12.jpg
+    caption: ''
+    width: 1600
+    height: 1068
+  - file: europe/europe-13.jpg
+    caption: ''
+    width: 1068
+    height: 1600
+  - file: europe/europe-14.jpg
+    caption: ''
+    width: 1600
+    height: 1068
+  - file: europe/europe-15.jpg
+    caption: ''
+    width: 1068
+    height: 1600
+  - file: europe/europe-16.jpg
+    caption: ''
+    width: 1600
+    height: 1070
+  - file: europe/europe-17.jpg
+    caption: ''
+    width: 1600
+    height: 1070
+  - file: europe/europe-18.jpg
+    caption: ''
+    width: 1600
+    height: 1067
+  - file: europe/europe-19.jpg
+    caption: ''
+    width: 1600
+    height: 1067
+  - file: europe/europe-20.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: europe/europe-21.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: europe/europe-22.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+  - file: europe/europe-23.jpg
+    caption: ''
+    width: 1600
+    height: 1200
+- name: Lebanon
+  id: lebanon
+  photos:
+  - file: lebanon/lebanon-01.jpg
+    caption: ''
+    width: 1080
+    height: 1776
+  - file: lebanon/lebanon-02.jpg
+    caption: ''
+    width: 1776
+    height: 1080
+  - file: lebanon/lebanon-03.jpg
+    caption: ''
+    width: 1080
+    height: 1776
+  - file: lebanon/lebanon-04.jpg
+    caption: ''
+    width: 1080
+    height: 1776
+  - file: lebanon/lebanon-05.jpg
+    caption: ''
+    width: 1080
+    height: 1776
+  - file: lebanon/lebanon-06.jpg
+    caption: ''
+    width: 2048
+    height: 1247
+  - file: lebanon/lebanon-07.jpg
+    caption: ''
+    width: 2048
+    height: 1364
+  - file: lebanon/lebanon-08.jpg
+    caption: ''
+    width: 2048
+    height: 1365
+  - file: lebanon/lebanon-09.jpg
+    caption: ''
+    width: 2048
+    height: 1365
+  - file: lebanon/lebanon-010.jpg
+    caption: ''
+    width: 5225
+    height: 3605
+  - file: lebanon/lebanon-011.jpg
+    caption: ''
+    width: 4512
+    height: 3008
+  - file: lebanon/lebanon-012.jpg
+    caption: ''
+    width: 4512
+    height: 3008
+  - file: lebanon/lebanon-013.jpg
+    caption: ''
+    width: 1600
+    height: 511
+  - file: lebanon/lebanon-014.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: lebanon/lebanon-015.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: lebanon/lebanon-016.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: lebanon/lebanon-017.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: lebanon/lebanon-018.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: lebanon/lebanon-019.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: lebanon/lebanon-020.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: lebanon/lebanon-021.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: lebanon/lebanon-022.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: lebanon/lebanon-023.jpeg
+    caption: ''
+    width: 1280
+    height: 960
+  - file: lebanon/lebanon-024.jpeg
+    caption: ''
+    width: 1280
+    height: 960
+- name: Other
+  id: other
+  photos:
+  - file: other/other-01.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: other/other-02.jpg
+    caption: ''
+    width: 4869
+    height: 2905
+  - file: other/other-03.jpg
+    caption: ''
+    width: 901
+    height: 1600
+  - file: other/other-04.jpg
+    caption: ''
+    width: 1600
+    height: 901
+  - file: other/other-05.jpg
+    caption: ''
+    width: 2048
+    height: 1099
+  - file: other/other-06.jpg
+    caption: ''
+    width: 901
+    height: 1600

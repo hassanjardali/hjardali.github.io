@@ -1,0 +1,82 @@
+# Press / media coverage, shown on the Media page.
+# Grouped by category; within each, items are sorted by `date` (newest first).
+# To add coverage: copy an item block under the right category.
+#   date  : YYYY-MM-DD  (used only for sorting — approximate is fine)
+#   label : how the date is displayed
+#   title : headline (links out to `url`)
+#   outlet: publication / show name
+#   url   : link to the coverage
+# Lines marked "# verify" are my best guess — please confirm the date/title.
+categories:
+  - name: "Autonomous Racing"
+    id: racing
+    items:
+      - date: 2026-06-01
+        label: "2026"          # verify date
+        title: "IU Autonomous Racing — reel"
+        outlet: "Instagram"
+        url: "https://www.instagram.com/reels/DWBx8AvDECU/"
+      - date: 2026-01-21
+        label: "Jan 2026"
+        title: "IU students take on the Indy Autonomous Challenge"
+        outlet: "Experience IU — Visual Stories"
+        url: "https://experience.iu.edu/iu-students-take-on-indy-autonomous-challenge"
+      - date: 2025-08-01
+        label: "Aug 2025"
+        title: "AI at 120 mph"
+        outlet: "We Are IU (podcast)"
+        url: "https://www.myiu.org/learning-resources/we-are-iu/artificial-intelligence-at-120-mph.html"
+      - date: 2025-07-07
+        label: "Jul 2025"
+        title: "WFHB Local News — featuring Paul Quigley & Hassan Jardali"
+        outlet: "WFHB 91.3 FM, Bloomington"
+        url: "https://wfhb.org/wfhb-local-news-july-7th-2025-2/20250707-iu-ai-race-team-arrows-on-paul-quigley-and-hassan-jardali/"
+      - date: 2025-07-07
+        label: "Jul 2025"
+        title: "IU Students to Pilot AI Race Car"
+        outlet: "WFHB 91.3 FM, Bloomington"
+        url: "https://wfhb.org/iu-students-to-pilot-ai-race-car/"
+      - date: 2025-01-23
+        label: "Jan 2025"
+        title: "No Limits — IU Luddy Autonomous Race Team Keeps Pushing Boundaries"
+        outlet: "Luddy School, Indiana University"
+        url: "https://news.iu.edu/luddy/live/news/44661-no-limits-iu-luddy-autonomous-race-team-keeps"
+      - date: 2025-01-07
+        label: "Jan 2025"          # verify date
+        title: "IU Engineering — Autonomous Racing feature"
+        outlet: "LinkedIn — Indiana University Engineering"
+        url: "https://www.linkedin.com/posts/engineering-iu-autonomy-ugcPost-7149441503935746048-3Yk8/"
+      - date: 2024-09-17
+        label: "Sep 2024"
+        title: "Luddy School race car debuts with strong showing at the Indy Autonomous Challenge"
+        outlet: "News at IU"
+        url: "https://news.iu.edu/live/news/37910-luddy-school-race-car-debuts-with-strong-showing"
+
+  - name: "High School — Photography & More"
+    id: high-school
+    items:
+      - date: 2018-01-01
+        label: "High school"       # verify date
+        title: "Third place — UN SDG photography competition (SDG 7 & SDG 11)"
+        outlet: "UN Lebanon"
+        url: "https://www.facebook.com/UNLebanon/photos/third-place-hassan-jardali-18sdg-7-affordable-and-clean-energy-and-sdg-11-sustai/803632163146969/"
+      - date: 2016-06-01
+        label: "2016"
+        title: "First place — National Video & Essay School Competition"
+        outlet: "Rafik Hariri University (RHU)"
+        url: "https://youtu.be/hyimkmPmJ3s"
+      - date: 2017-01-01
+        label: "High school"       # verify date
+        title: "Hyundai Startup Competition — Episode 4"
+        outlet: "YouTube"
+        url: "https://www.youtube.com/watch?v=8r5BTruOH4w"
+      - date: 2016-02-09
+        label: "Feb 2016"
+        title: "“The War as I See It” — Youth Photo Contest & Exhibition"
+        outlet: "ICTJ (International Center for Transitional Justice)"
+        url: "https://www.ictj.org/media/5562"
+      - date: 2016-01-15
+        label: "High school"       # verify date
+        title: "THIMUN Qatar Northwestern Film Fest — nominated for three awards, including Best Picture"
+        outlet: "THIMUN Qatar"
+        url: "https://www.youtube.com/watch?v=wXEx4NSaKeE"

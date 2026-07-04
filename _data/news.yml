@@ -1,0 +1,58 @@
+# Timeline shown on the home page. Sorted by `date` automatically (newest first).
+# type controls the dot colour: paper | racing | milestone
+- date: 2026-06-15
+  label: "Jun 2026"
+  type: paper
+  text: "**Safe Overtaking for Autonomous Racing Using Hierarchical Optimization and Learning-Based Control** accepted to **IROS 2026**."
+- date: 2026-01-15
+  label: "Jan 2026"
+  type: paper
+  text: "**LPV-MPC for Lateral Control in Full-Scale Autonomous Racing** accepted to **ICRA 2026**."
+- date: 2025-07-24
+  label: "Jul 2025"
+  type: racing
+  text: "Finished **4th of 8 teams** at the Indy Autonomous Challenge race, **WeatherTech Raceway Laguna Seca**."
+- date: 2025-07-05
+  label: "Jul 2025"
+  type: paper
+  text: "**From Zero to High-Speed Racing: An Autonomous Racing Stack** presented at **ISER 2025**."
+- date: 2025-01-01
+  label: "Jan 2025"
+  type: racing
+  text: "IAC time-trial at the **Las Vegas Motor Speedway** — top speed **163 mph**."
+- date: 2024-11-01
+  label: "Nov 2024"
+  type: paper
+  text: "Preprint: **Minimalistic Autonomous Stack for High-Speed Time-Trial Racing**."
+- date: 2024-09-01
+  label: "Sep 2024"
+  type: racing
+  text: "Worked on the **planning and control** modules for the **IU-Luddy Autonomous Racing** team's IAC debut at the **Indianapolis Motor Speedway** — **124 mph** in our first race."
+- date: 2024-05-13
+  label: "May 2024"
+  type: paper
+  text: "Two papers at **ICRA 2024** on mapless navigation over uneven terrain."
+- date: 2024-02-01
+  label: "Spring 2024"
+  type: racing
+  text: "Interned with **Code 19 Racing** in the **Abu Dhabi Autonomous Racing League (A2RL)**."
+- date: 2023-07-10
+  label: "Jul 2023"
+  type: paper
+  text: "**Autonomous Navigation, Mapping and Exploration with Gaussian Processes** at **RSS 2023**."
+- date: 2022-08-15
+  label: "Fall 2022"
+  type: milestone
+  text: "Joined **Indiana University** as a PhD researcher in the Vehicle Autonomy & Intelligence Lab."
+- date: 2022-05-01
+  label: "May 2022"
+  type: milestone
+  text: "Graduated from the **Lebanese American University** with a **B.E. in Mechatronics Engineering**, with distinction."
+- date: 2021-09-01
+  label: "Fall 2021"
+  type: milestone
+  text: "Interned at **BMW Group**, Munich — logistics robotics."
+- date: 2019-02-01
+  label: "Spring 2019"
+  type: milestone
+  text: "Erasmus exchange at **Politecnico di Torino**, Turin."
