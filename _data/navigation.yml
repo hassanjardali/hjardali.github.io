@@ -7,6 +7,9 @@ main:
   - title: "Publications"
     url: /#publications
 
+  - title: "CV"
+    url: /files/Hassan_Jardali_CV.pdf
+
   - title: "Photography"
     url: /photography/
 
