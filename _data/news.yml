@@ -1,5 +1,13 @@
 # Timeline shown on the home page. Sorted by `date` automatically (newest first).
 # type controls the dot colour: paper | racing | milestone
+- date: 2026-10-02
+  label: "Oct 2026"
+  type: paper
+  text: "**Anchoring Learned MPC Cost Weights on a Deployed Controller** accepted to the **IROS 2026 BLPC Workshop** (Hybrid Architectures for Embodied Autonomy)."
+- date: 2026-09-03
+  label: "Sep 2026"
+  type: racing
+  text: "Indy Autonomous Challenge race at **WeatherTech Raceway Laguna Seca** — improved our best lap time to **1:32.7** ([watch the lap](https://youtu.be/L_HBfhxSUIo?t=1624))."
 - date: 2026-06-15
   label: "Jun 2026"
   type: paper

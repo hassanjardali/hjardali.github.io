@@ -87,6 +87,8 @@ author:
 publication_category:
   conferences:
     title: 'Conference Papers'
+  workshops:
+    title: 'Workshop Papers'
   preprints:
     title: 'Preprints &amp; Working Papers'
 
